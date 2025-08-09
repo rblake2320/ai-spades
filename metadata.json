@@ -1,0 +1,5 @@
+{
+  "name": "AI Spades",
+  "description": "A four-player trick-taking card game where players bid on the number of tricks they will take. This version supports private rooms for human players and fills empty seats with AI bots. The game follows standard Spades rules and is won by the first team to reach 500 points.",
+  "requestFramePermissions": []
+}
