@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "build-tests",
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "sourceMap": false,
+    "declaration": false,
+    "allowImportingTsExtensions": false
+  },
+  "include": ["gameLogic.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules"]
+}
